@@ -8,15 +8,22 @@ http://www.runoob.com/java/java-environment-setup.html
 https://git-scm.com/downloads
 4. 安装weex-toolkit  
 npm install weex-toolkit -g
-5. 安装webpack  
-npm install webpack -g
+5. 安装weexpack  
+npm install weexpack -g
 6. 安装java和android-studio和sdk
 http://www.android-studio.org/
 https://blog.csdn.net/k491022087/article/details/72934862
 7. 安装mac os虚拟机安装xcode  
 
-8.   
+8.
+## 打包
+https://www.jianshu.com/p/674efb2468e4
+
 
 ## 组件和模块使用
 
 ## 踩坑
+
+You have not accepted the license agreements of the following SDK components:
+[Android SDK Build-Tools 26].
+找到sdkmanager.bat，执行sdkmanager.bat --update，然后输入y
