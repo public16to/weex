@@ -32,3 +32,6 @@ https://blog.csdn.net/h386926074/article/details/79488545
 
 unable to add a source with url 'https://github.com/CocoaPods/Specs.git' named master-1
 https://blog.csdn.net/u010046748/article/details/52681192
+
+Unable to download data from https://rubygems.org/
+https://blog.csdn.net/huangshaotian/article/details/41378989
