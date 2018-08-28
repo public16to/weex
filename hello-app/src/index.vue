@@ -5,6 +5,7 @@
 </template>
 
 <script>
+require("weex-marquee");
 export default {
   name: 'App',
   data () {

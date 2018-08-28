@@ -131,6 +131,10 @@ const webConfig = {
           })
         }],
         exclude: config.excludeModuleReg
+      },
+      {
+        test: /\.we(\?[^?]+)?$/,
+        loaders: ['weex-loader']
       }
     ]
   },

@@ -22,7 +22,13 @@ https://www.jianshu.com/p/674efb2468e4
 
 ## 组件和模块使用
 
+
+
 ## 踩坑
+Environment variable $ANDROID_HOME not found !
+在环境变量中增加ANDROID_HOME,D:\Android\sdk
+在path中增加%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools
+
 You have not accepted the license agreements of the following SDK components:
 [Android SDK Build-Tools 26].
 找到sdkmanager.bat，执行sdkmanager.bat --update，然后输入y
@@ -35,3 +41,7 @@ https://blog.csdn.net/u010046748/article/details/52681192
 
 Unable to download data from https://rubygems.org/
 https://blog.csdn.net/huangshaotian/article/details/41378989
+
+无法加载we文件
+https://www.jianshu.com/p/7c2a6cc901c1，中的weex-loader
+
