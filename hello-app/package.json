@@ -36,11 +36,13 @@
     "weex-components": "^0.2.1",
     "weex-marquee": "^1.1.2",
     "weex-tabbar": "^1.1.1",
+    "weex-ui": "^0.6.5",
     "weex-vue-render": "^0.12.26"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.5",
+    "babel-plugin-component": "^1.1.1",
     "babel-preset-stage-0": "^6.24.1",
     "chai": "^4.1.2",
     "css-loader": "^0.28.11",

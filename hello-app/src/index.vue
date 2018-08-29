@@ -1,17 +1,21 @@
 <template>
   <div class="wrapper">
     <router-view/>
+    <myTabBar/>
   </div>
 </template>
 
 <script>
-require("weex-marquee");
+  import myTabBar from "./components/com/myTabBar.vue"
 export default {
   name: 'App',
   data () {
     return {
       logo: 'https://gw.alicdn.com/tfs/TB1yopEdgoQMeJjy1XaXXcSsFXa-640-302.png'
     }
+  },
+  components:{
+    "myTabBar":myTabBar
   }
 }
 </script>

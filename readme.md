@@ -21,7 +21,8 @@ https://www.jianshu.com/p/674efb2468e4
 
 
 ## 组件和模块使用
-
+### 使用weex-ui
+https://github.com/alibaba/weex-ui
 
 
 ## 踩坑
@@ -44,4 +45,6 @@ https://blog.csdn.net/huangshaotian/article/details/41378989
 
 无法加载we文件
 https://www.jianshu.com/p/7c2a6cc901c1，中的weex-loader
+
+
 
