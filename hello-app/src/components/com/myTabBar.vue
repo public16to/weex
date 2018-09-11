@@ -19,7 +19,8 @@
   }
 </style>
 <script>
-  import { WxcTabBar, Utils } from 'weex-ui';
+  import WxcTabBar from '../../weex-ui/packages/wxc-tab-bar';
+  import Utils  from '../../weex-ui/packages/utils/index.js';
   var Config={
     // 使用 iconFont 模式的tab title配置
     tabIconFontTitles: [
@@ -57,7 +58,7 @@
       iconFontMarginBottom: 8,
       iconFontColor: '#333333',
       activeIconFontColor: 'red',
-      iconFontUrl: '//at.alicdn.com/t/font_501019_mauqv15evc1pp66r.ttf'
+      iconFontUrl: '/src/assets/font_501019_mauqv15evc1pp66r.ttf'
     }
   };
   export default {
