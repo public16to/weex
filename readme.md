@@ -36,7 +36,8 @@ You have not accepted the license agreements of the following SDK components:
 [Android SDK Build-Tools 26].
 找到sdkmanager.bat，执行sdkmanager.bat --update，然后输入y
 
-pod update -- Failed to connect to GitHub to update the CocoaPods/Specs specs repo
+
+pod update
 https://blog.csdn.net/h386926074/article/details/79488545
 
 unable to add a source with url 'https://github.com/CocoaPods/Specs.git' named master-1
