@@ -1,0 +1,136 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "weex-ui@^0.6.5",
+        "scope": null,
+        "escapedName": "weex-ui",
+        "name": "weex-ui",
+        "rawSpec": "^0.6.5",
+        "spec": ">=0.6.5 <0.7.0",
+        "type": "range"
+      },
+      "E:\\weex\\weex\\hello-app"
+    ]
+  ],
+  "_from": "weex-ui@>=0.6.5 <0.7.0",
+  "_id": "weex-ui@0.6.5",
+  "_inCache": true,
+  "_location": "/weex-ui",
+  "_nodeVersion": "8.2.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/weex-ui_0.6.5_1532856197334_0.3001795953281039"
+  },
+  "_npmUser": {
+    "name": "tw93",
+    "email": "tw93@qq.com"
+  },
+  "_npmVersion": "6.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "weex-ui@^0.6.5",
+    "scope": null,
+    "escapedName": "weex-ui",
+    "name": "weex-ui",
+    "rawSpec": "^0.6.5",
+    "spec": ">=0.6.5 <0.7.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/weex-ui/-/weex-ui-0.6.5.tgz",
+  "_shasum": "6d9c745a8774c2ae6b5c75154ac06c9e279ffc13",
+  "_shrinkwrap": null,
+  "_spec": "weex-ui@^0.6.5",
+  "_where": "E:\\weex\\weex\\hello-app",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/alibaba/weex-ui/issues"
+  },
+  "dependencies": {
+    "url-parse": "^1.1.9",
+    "weex-bindingx": "0.0.17"
+  },
+  "description": "A rich interaction, lightweight, high performance UI library based on Weex",
+  "devDependencies": {
+    "anywhere": "^1.5.0",
+    "autoprefixer": "^7.2.2",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "~8.0.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "clean-webpack-plugin": "~0.1.17",
+    "copy-webpack-plugin": "~4.0.1",
+    "css-loader": "~0.28.7",
+    "eslint": "^4.11.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-vue": "^2.1.0",
+    "filemanager-webpack-plugin": "^1.0.16",
+    "glob": "^7.1.2",
+    "happypack": "^4.0.0",
+    "lerna": "^2.5.1",
+    "os": "^0.1.1",
+    "postcss-loader": "^2.0.10",
+    "postcss-plugin-px2rem": "^0.7.0",
+    "postcss-plugin-weex": "^0.1.6",
+    "postcss-px2rem": "^0.3.0",
+    "uppercamelcase": "^3.0.0",
+    "vue": "^2.5.3",
+    "vue-loader": "^12.2.2",
+    "vue-template-compiler": "^2.5.3",
+    "webpack": "^2.7.0",
+    "weex-loader": "^0.6.0",
+    "weex-vue-loader": "^0.5.0",
+    "weex-vue-precompiler": "^0.1.17",
+    "weex-vue-render": "^1.0.17"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-7Eb5Lav1KJUN+oYDTeyE0hAw4uhSOXBVskrZ7nxoci2bi3LsFkV11R2ErtzkPOkbvGo/7zzNskgwOr06lc4Zzw==",
+    "shasum": "6d9c745a8774c2ae6b5c75154ac06c9e279ffc13",
+    "tarball": "https://registry.npmjs.org/weex-ui/-/weex-ui-0.6.5.tgz",
+    "fileCount": 221,
+    "unpackedSize": 3477101,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbXYeFCRA9TVsSAnZWagAAH0MP/0WszO3674jeHz+UbqIh\nXPEYfrtCLRzeL8IQtwriEN8FM7S+RzA5o+28rVb9RVVYsdbDobVEFUnsnqtq\ngcUZBk4mUxgH9UwOmXLe/vJWdaoaI+olEEYepg0JwUJpB72u1laapfF6HEnS\n69CV+DeIaTHSJcf7McX1EyvmsgRwUoHT0WOLnBUWea4zSNulYZe1IXqEw8/j\nFO+1t+OToI3UabU46A5AmTkDzJa7/8QrsGW1R06QFHr9XdfBALrPtVkUezj9\nrpSP+fWEbjXWKLzVXKaESyZujmnRGsxWCoEF0RS/TRYXXcBzeW1vvrNZL6XY\nhTCVgHRdc8VKU3P/13+Te9cMnAeSlf0csmu2Lu74fkIfzFaxaLrXhFvebF3h\nS5b0NPEMYrCgaCBd/xoo5kYFx3FC4d1KPiGxt82fuelknpfbiVoNOuzMYqrI\nJlaJK2uX9tCFaBzKyD+MRvWRBPHtvqkWY6ecYi4rQBu9dQLX46oalh9TxLBl\nQpLRKDaIMixrGoHF6X5sETU5E7GMr8DJso7pGihr9kQ6K11jk2iSGl50mavc\nDXkurv0CJfiAOFwqctFGNBWRpyPMFllHauMJOze+Jo1WRKFJP+oljfyWD1cI\nEy8auBXNdoGwV4NmRNtoZc/f3z9kiFgD4OFaDSHXii2B9e8Md5eehr5OF+T1\nWPWt\r\n=khN5\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "gitHead": "fdf091d431359b4d2e4e7886ff00cbc449f25f93",
+  "homepage": "https://alibaba.github.io/weex-ui/",
+  "keywords": [
+    "Weex Ui",
+    "Weex",
+    "Vue",
+    "Mobile",
+    "Ul Components",
+    "UI library"
+  ],
+  "lib": "vue",
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "tw93",
+      "email": "tw93@qq.com"
+    }
+  ],
+  "name": "weex-ui",
+  "optionalDependencies": {},
+  "readme": "# Weex Ui\n\n[![Build Status](https://img.shields.io/travis/alibaba/weex-ui.svg?style=flat-square)](https://travis-ci.org/alibaba/weex-ui)\n[![npm](https://img.shields.io/npm/v/weex-ui.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/weex-ui?_blank)\n[![NPM downloads](https://img.shields.io/npm/dm/weex-ui.svg?style=flat-square)](https://npmjs.org/package/weex-ui)\n[![NPM all downloads](https://img.shields.io/npm/dt/weex-ui.svg?style=flat-square)](https://npmjs.org/package/weex-ui)\n[![GitHub last commit](https://img.shields.io/github/last-commit/alibaba/weex-ui.svg?style=flat-square)](https://github.com/alibaba/weex-ui/commits/dev)\n[![GitHub closed issues](https://img.shields.io/github/issues-closed/alibaba/weex-ui.svg?style=flat-square)](https://github.com/alibaba/weex-ui/issues?utf8=%E2%9C%93&q=)\n[![Package Quality](http://npm.packagequality.com/shield/weex-ui.svg?style=flat-square)](http://packagequality.com/#?package=weex-ui)\n[![Join the chat at https://gitter.im/alibaba-weex-ui/chat](https://img.shields.io/gitter/room/alibaba/weex-ui.svg?style=flat-square)](https://gitter.im/alibaba-weex-ui/chat?utm_source=share-link&utm_medium=link&utm_campaign=share-link)\n\n> A rich interaction, lightweight, high performance UI library based on [Weex](https://github.com/apache/incubator-weex).\n\n## Docs\n\n* [**Home Page**](https://alibaba.github.io/weex-ui/)\n* [中文文档](https://alibaba.github.io/weex-ui/#/cn/)\n* [Use Weex Ui with weex-toolkit](https://alibaba.github.io/weex-ui/#/docs/with-weex-toolkit)\n\n## Demo\n\n<img src=\"https://img.alicdn.com/tfs/TB1O2ulhgoQMeJjy0FoXXcShVXa-1282-986.jpg\" width=540/>\n\nTry [**it**](https://h5.m.taobao.com/trip/weex-ui/index.html?_wx_tpl=https%3A%2F%2Fh5.m.taobao.com%2Ftrip%2Fweex-ui%2Fdemo%2Findex.native-min.js) with Fliggy、Taobao、Tmall、Weex Playground or any browsers now!\n\n## Installation\n\n```shell\nnpm i weex-ui -S\n```\n\n## Usage\n\n```html\n<template>\n  <div>\n    <wxc-button text=\"Open Popup\"\n                @wxcButtonClicked=\"buttonClicked\">\n    </wxc-button>\n    <wxc-popup width=\"500\"\n               pos=\"left\"\n               :show=\"isShow\"\n               @wxcPopupOverlayClicked=\"overlayClicked\">\n    </wxc-popup>\n  </div>\n</template>\n\n<script>\n  import { WxcButton, WxcPopup } from 'weex-ui';\n  // or\n  // import WxcButton from 'weex-ui/packages/wxc-button';\n  // import WxcPopup from 'weex-ui/packages/wxc-popup';\n  module.exports = {\n    components: { WxcButton, WxcPopup },\n    data: () => ({\n      isShow: false\n    }),\n    methods: {\n      buttonClicked () {\n        this.isShow = true;\n      },\n      overlayClicked () {\n        this.isShow = false;\n      }\n    }\n  };\n</script>\n```\n\n### Before use\n\nIn order not to pack all the components, you need use [`babel-plugin-component`](https://www.npmjs.com/package/babel-plugin-component) to import specified component.\nAt the same time, if you don't install `babel-preset-stage-0`, also need to install it.\n\n```shell\nnpm i babel-preset-stage-0 babel-plugin-component  -D\n```\n\n```json\n{\n    \"presets\": [\"es2015\", \"stage-0\"],\n    \"plugins\": [\n        [\n            \"component\",\n            {\n                \"libraryName\": \"weex-ui\",\n                \"libDir\": \"packages\",\n                \"style\": false\n            }\n        ]\n    ]\n}\n```\n\n### More\n\n* If babel-loader in `webpack.config.js` has a exclude for node_modules, please turn on for week-ui as `exclude: /node_modules(?!(\\/|\\\\).*(weex).*)/`.\n* In order to get the latest features, please focus on the [ChangeLog](https://github.com/alibaba/weex-ui/releases) and often update `weex-ui` to the latest.\n* Many questions can be found from [faq](https://alibaba.github.io/weex-ui/#/faq) and [issue list](https://github.com/alibaba/weex-ui/issues?utf8=%E2%9C%93&q=), if you find a new bug, just file a [issue](https://github.com/alibaba/weex-ui/issues/new).\n* More experience in Weex construction can be learned from [Weex + Ui - Weex Conf 2018](https://alibaba.github.io/weex-ui/#/docs/weex-ui-weex-conf-2018) ,welcome to translate it.\n\n## Development\n\n```shell\nnpm i\nnpm run start\n```\n\nOnce it has been compiled, a browser window will be opened automatically. You can switch to developer mode to see the demo. And there will be a QR code that you can use to try the demo on your phone in the console.\n\n## Support\n\n* Use Weex Ui in your daily work.\n* **Star it** if you like.\n* <details>\n  <summary>Join the chat at dingtalk to help solve weex problems.</summary>\n  <img alt=\"Join the chat at dingtalk\" src=\"https://img.alicdn.com/tfs/TB1DSvMg2DH8KJjy1XcXXcpdXXa-750-850.jpg\" width=\"240\"/>\n</details>\n\n## Contribution\nWant to file a bug, contribute some code, or improve documentation? Excellent! Read up on our [Contributing Guide](https://github.com/alibaba/weex-ui/blob/master/CONTRIBUTING.md) before making a pull request.\n\nThank you to all the people who already contributed to Weex Ui!\n\n<a href=\"https://github.com/alibaba/weex-ui/graphs/contributors\"><img src=\"https://opencollective.com/weex-ui/contributors.svg\"/></a>\n\n## License\n\n* The [MIT License](http://opensource.org/licenses/MIT)\n* Please feel free to use and contribute to the development.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alibaba/weex-ui.git"
+  },
+  "scripts": {
+    "build": "npm run build:entry && webpack --progress",
+    "build:entry": "node bin/build-entry.js",
+    "serve": "anywhere -d build/example/ -p 8888",
+    "start": "npm run build && (npm run serve & npm run watch)",
+    "watch": "webpack --progress --watch"
+  },
+  "type": "weex",
+  "version": "0.6.5"
+}
