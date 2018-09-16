@@ -4,6 +4,14 @@
         "source": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
+        "merged": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
         "merged": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
         "source": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     }

@@ -4,6 +4,14 @@
         "source": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_refresh.png"
     },
     {
+        "merged": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_refresh.png",
+        "source": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_refresh.png"
+    },
+    {
+        "merged": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_scan.png",
+        "source": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
+    },
+    {
         "merged": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_action_scan.png",
         "source": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\src\\main\\res\\drawable-mdpi\\ic_action_scan.png"
     }

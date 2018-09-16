@@ -13,8 +13,10 @@ npm install weexpack -g
 6. 安装java和android-studio和sdk
 http://www.android-studio.org/
 https://blog.csdn.net/k491022087/article/details/72934862
-7. 安装mac os虚拟机安装xcode  
+7. 安装mac os虚拟机安装xcode
 https://www.cnblogs.com/liming2017/p/7566953.html
+https://developer.apple.com/download/more/
+xcode8.3.2
 
 ## 打包
 https://www.jianshu.com/p/674efb2468e4
@@ -46,5 +48,7 @@ https://blog.csdn.net/huangshaotian/article/details/41378989
 无法加载we文件
 https://www.jianshu.com/p/7c2a6cc901c1，中的weex-loader
 
+xcode-select: error: tool 'xcodebuild' requires Xcode
+https://blog.csdn.net/joeblackzqq/article/details/38908317
 
 

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "E:\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "D:\\www\\weex\\weex\\hello-app\\platforms\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\26.1.0\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }
