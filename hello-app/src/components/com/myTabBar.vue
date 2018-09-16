@@ -58,7 +58,7 @@
       iconFontMarginBottom: 8,
       iconFontColor: '#333333',
       activeIconFontColor: 'red',
-      iconFontUrl: '/src/assets/font_501019_mauqv15evc1pp66r.ttf'
+       iconFontUrl: '//at.alicdn.com/t/font_501019_mauqv15evc1pp66r.ttf'
     }
   };
   export default {

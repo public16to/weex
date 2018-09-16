@@ -84,7 +84,7 @@
     top: 10px;
     right: 20px;
     border-bottom-right-radius: 14px;
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 14px;
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     background-color: #FF5E00;
