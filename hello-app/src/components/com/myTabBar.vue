@@ -3,10 +3,13 @@
                :tab-styles="tabStyles"
                title-type="iconFont"
                @wxcTabBarCurrentTabSelected="wxcTabBarCurrentTabSelected">
-    <div class="item-container" :style="contentStyle"><text>首页</text></div>
-    <div class="item-container" :style="contentStyle"><text>特别推荐</text></div>
-    <div class="item-container" :style="contentStyle"><text>消息中心</text></div>
-    <div class="item-container" :style="contentStyle"><text>我的主页</text></div>
+    <div class="item-container" :style="contentStyle">
+        <MyTask></MyTask>
+    </div>
+    <div class="item-container" :style="contentStyle">
+      <MyCalendar></MyCalendar>
+    </div>
+    <div class="item-container" :style="contentStyle"><text>我的</text></div>
   </wxc-tab-bar>
 </template>
 
@@ -21,26 +24,23 @@
 <script>
   import WxcTabBar from '../../weex-ui/packages/wxc-tab-bar';
   import Utils  from '../../weex-ui/packages/utils/index.js';
+  import MyCalendar from '../myCalendar.vue'; 
+  import MyTask from '../myTask.vue'; 
   var Config={
     // 使用 iconFont 模式的tab title配置
     tabIconFontTitles: [
       {
-        title: '首页',
-        codePoint: '\ue623'
+        title: '任务',
+        codePoint: '\ue732'
       },
       {
-        title: '特别推荐',
-        codePoint: '\ue608'
+        title: '日历',
+        codePoint: '\ue6de'
       },
       {
-        title: '消息中心',
-        codePoint: '\ue752',
-        badge: 5
-      },
-      {
-        title: '我的主页',
-        codePoint: '\ue601',
-        dot: true
+        title: '我的',
+        codePoint: '\ue716',
+        //badge: 5
       }
     ],
     tabIconFontStyles: {
@@ -58,11 +58,15 @@
       iconFontMarginBottom: 8,
       iconFontColor: '#333333',
       activeIconFontColor: 'red',
-       iconFontUrl: '//at.alicdn.com/t/font_501019_mauqv15evc1pp66r.ttf'
+       iconFontUrl: '//g.16to.com/font/iconfont.ttf'
     }
   };
   export default {
-    components: { WxcTabBar },
+    components: { 
+      WxcTabBar,
+      MyCalendar,
+      MyTask
+    },
     data: () => ({
       tabTitles: Config.tabIconFontTitles,
       tabStyles: Config.tabIconFontStyles

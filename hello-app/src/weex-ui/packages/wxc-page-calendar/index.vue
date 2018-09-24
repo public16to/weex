@@ -7,6 +7,7 @@
     <wxc-minibar :show="showTitle"
                  v-bind="minibarCfg"
                  :use-default-return="false"
+                 leftButton="" 
                  @wxcMinibarLeftButtonClicked="minibarLeftButtonClick"></wxc-minibar>
     <div class="calendar-weekday" v-if="isShow">
       <text class="flex-item weekday-text"
@@ -180,13 +181,13 @@
         }, 10);
       },
       dispatchDateChange (dateArr) {
-        const duration = isWeb ? 400 : 600;
-        setTimeout(() => {
-          this.hide();
-        }, duration);
-        this.$emit('wxcPageCalendarDateSelected', {
-          date: dateArr
-        });
+        // const duration = isWeb ? 400 : 600;
+        // setTimeout(() => {
+        //   this.hide();
+        // }, duration);
+        // this.$emit('wxcPageCalendarDateSelected', {
+        //   date: dateArr
+        // });
       },
       detectShow () {
         if (this.isRange && this.selectedDate.length >= 2) {
