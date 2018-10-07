@@ -9,7 +9,9 @@
     <div class="item-container" :style="contentStyle">
       <MyCalendar></MyCalendar>
     </div>
-    <div class="item-container" :style="contentStyle"><text>我的</text></div>
+    <div class="item-container" :style="contentStyle">
+      <MySet></MySet>
+    </div>
   </wxc-tab-bar>
 </template>
 
@@ -17,8 +19,6 @@
   .item-container {
     width: 750px;
     background-color: #f2f3f4;
-    align-items: center;
-    justify-content: center;
   }
 </style>
 <script>
@@ -26,6 +26,7 @@
   import Utils  from '../../weex-ui/packages/utils/index.js';
   import MyCalendar from '../myCalendar.vue'; 
   import MyTask from '../myTask.vue'; 
+  import MySet from '../mySet.vue';
   var Config={
     // 使用 iconFont 模式的tab title配置
     tabIconFontTitles: [
@@ -58,23 +59,25 @@
       iconFontMarginBottom: 8,
       iconFontColor: '#333333',
       activeIconFontColor: 'red',
-       iconFontUrl: '//g.16to.com/font/iconfont.ttf'
+       iconFontUrl: 'http://g.16to.com/font/iconfont.ttf'
     }
   };
   export default {
     components: { 
       WxcTabBar,
       MyCalendar,
-      MyTask
+      MyTask,
+      MySet
     },
     data: () => ({
       tabTitles: Config.tabIconFontTitles,
-      tabStyles: Config.tabIconFontStyles
+      tabStyles: Config.tabIconFontStyles,
+      contentStyle:{}
     }),
     created () {
       const tabPageHeight = Utils.env.getPageHeight();
       const { tabStyles } = this;
-      this.contentStyle = { height: (tabPageHeight - tabStyles.height) + 'px' };
+      this.contentStyle = { height: (tabPageHeight) + 'px' };
     },
     methods: {
       wxcTabBarCurrentTabSelected (e) {

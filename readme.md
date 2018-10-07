@@ -25,7 +25,9 @@ https://www.jianshu.com/p/674efb2468e4
 ## 组件和模块使用
 ### 使用weex-ui
 https://github.com/alibaba/weex-ui
-
+### 图标库
+千牛图标库
+http://www.iconfont.cn/collections/detail?spm=a313x.7781069.1998910419.d9df05512&cid=4491
 
 ## 踩坑
 Environment variable $ANDROID_HOME not found !
@@ -51,5 +53,7 @@ https://www.jianshu.com/p/7c2a6cc901c1，中的weex-loader
 
 xcode-select: error: tool 'xcodebuild' requires Xcode
 https://blog.csdn.net/joeblackzqq/article/details/38908317
+
+scroller标签必须要有高度，不然没有办法滑动
 
 

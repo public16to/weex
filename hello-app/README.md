@@ -26,7 +26,3 @@ Then, you just need to change the `style` tag as: `<style lang="sass"><style>`.
 
 See [How-to-create-your-own-template](https://github.com/weex-templates/How-to-create-your-own-template).
 
-## 填坑记录
-Environment variable $ANDROID_HOME not found !
-在环境变量中增加ANDROID_HOME,D:\Android\sdk
-在path中增加%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools
